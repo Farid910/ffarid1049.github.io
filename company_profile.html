@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rental Mobil Murah</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            text-align: center; /* Menjadikan konten di dalam .container berada di tengah */
+        }
+        .logo, .about-image {
+            display: block;
+            margin: 0 auto; /* Menjadikan gambar di tengah */
+            border-radius: 0; /* Menghilangkan efek bulat pada gambar */
+            max-width: 100%; /* Membatasi lebar maksimal gambar */
+        }
+        .about-image {
+            width: 50%; /* Ukuran gambar pada bagian Tentang Kami */
+        }
+        .service-list {
+            display: flex;
+            justify-content: center; /* Menjadikan layanan berada di tengah */
+            gap: 20px; /* Memberi jarak antar layanan */
+        }
+        .service-item {
+            flex: 1;
+            max-width: 300px; /* Membatasi lebar layanan */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>RENTAL MOBIL PRO</h1>
+            <p>Pilihan Terbaik Untuk Kebutuhan Transportasi Anda</p>
+            <img src="pictures/rentalmobil.jpg" alt="Logo Rental Mobil Pro" class="logo">
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah perusahaan penyewaan mobil yang berkomitmen untuk memberikan layanan transportasi berkualitas tinggi bagi pelanggan di seluruh wilayah. Dengan armada mobil yang lengkap dan berbagai jenis layanan, kami memenuhi kebutuhan perjalanan Anda, baik untuk keperluan pribadi maupun bisnis. Kami mengutamakan keamanan dan kenyamanan pelanggan, serta menyediakan mobil yang selalu terawat dengan baik.</p>
+            <p>Dengan pengalaman bertahun-tahun di industri ini, kami memahami pentingnya layanan yang cepat, aman, dan andal. Tim kami selalu siap membantu Anda, mulai dari proses pemesanan hingga perjalanan selesai. Kami juga menyediakan layanan supir profesional yang berpengalaman untuk memberikan kenyamanan lebih saat Anda bepergian.</p>
+            <img src="pictures/about.jpg" alt="Tentang Kami" class="about-image">
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Sewa Harian</h3>
+                    <p>Menyediakan berbagai mobil dengan tarif sewa harian yang kompetitif.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Sewa Mingguan</h3>
+                    <p>Pilihan terbaik untuk perjalanan bisnis atau liburan keluarga jangka menengah.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Sewa Bulanan</h3>
+                    <p>Ideal untuk perusahaan dan kebutuhan jangka panjang dengan harga spesial.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Layanan Supir</h3>
+                    <p>Layanan supir profesional untuk kenyamanan dan kemudahan perjalanan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Email: kontak@rentalmobilpro.com</p>
+            <p>Telepon: 0812-3456-7890</p>
+            <p>Alamat: Jl. Raya Mobil No. 123, Karawang</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rental Mobil Pro. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
